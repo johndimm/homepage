@@ -1,0 +1,243 @@
+.homepage {
+    background-color: #ececea;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    vertical-align: middle;
+
+}
+
+.homepage .card {
+    width: 33%;
+    height: 270px;
+    text-align: center;
+    cursor: pointer;
+    float: left;
+    border-radius: 25px;
+
+    transition: background-color 1s ease;
+}
+
+.homepage .card img {
+    max-width: 100%;
+    max-height: 150px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.homepage .card:hover {
+    background-color: white;
+}
+
+.homepage .card_content {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.homepage .card .title {
+    color: rgb(43, 63, 66);
+    display: block;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+
+    font-weight: 500;
+    letter-spacing: .2em;
+    line-height: 110%;
+    font-size: .8em;
+}
+
+.homepage .card .subtitle {
+    color: #393939;
+    display: block;
+    font-style: oblique;
+    font-size: .8em;
+}
+
+.homepage .detail {
+    text-align: center;
+}
+
+.homepage .detail img {
+    max-width: 70%;
+}
+
+.homepage .detail .title {
+    font-size: 24pt;
+    font-weight: 600;
+}
+
+.homepage .detail .subtitle {
+    font-size: 12pt;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+
+.homepage .header .close_button {
+    float: right;
+    cursor: pointer;
+    font-size: 16pt;
+    border: 1px solid black;
+    padding: 5px;
+    font-family: sans-serif;
+}
+
+.homepage .detail .resumes {
+    font-size: 16pt;
+    text-align: center;
+    width: fit-content;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+
+.homepage .resume_format {
+    margin-top: 20px;
+}
+
+.homepage .detail .fields {
+    text-align: left;
+    width: fit-content;
+    display: inline-block;
+    font-size: 12pt;
+    margin: 10px;
+}
+
+
+.homepage .header {
+    display: inline-block;
+    margin: 20px 0 0 0;
+    padding-left: 12px;
+    width: 100%;
+    font-size: 0.80em;
+}
+
+
+.whoami {
+    display: inline-block;
+    position: relative;
+    margin-left: 20px;
+    top: -10px;
+}
+
+.leftside {
+    vertical-align: top;
+    float: left;
+}
+
+.rightside {
+    float: right;
+}
+
+.homepage_name,
+.footer {
+    font-family: "BryantPro-Medium", Arial, Helvetica, sans-serif;
+
+    font-weight: 500;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    display: inline-block;
+
+}
+
+.footer {
+    width: 100%;
+    text-align: center;
+    font-size: 70%;
+    padding-bottom: 30px;
+}
+
+.footer hr {
+    margin: 10px;
+}
+
+.footer .footer_name {
+    margin-right: 50px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    display: inline-block;
+    height: 43px;
+    width: 39px;
+    margin: 0px 0 0 0px;
+}
+
+.homepage_title {
+    font-style: oblique;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.description {
+    font-size: 14pt;
+    max-width: 70%;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.detail p {
+    margin-bottom: 10px;
+}
+
+.cursorpointer {
+    cursor: pointer;
+}
+
+.about {
+    margin-top: 30px;
+}
+
+.about .title {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-weight: 100;
+    font-size: 2em;
+    color: #928452;
+    font-style: oblique;
+    line-height: 100%;
+    margin-bottom: 5%;
+}
+
+.about .text {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.2em;
+    color: #333;
+    line-height: 100%;
+    margin-bottom: 6%;
+}
+
+.about .picture {
+  float:left;
+  width: 200px;
+}
+
+.about .picture img {
+    width: 100%;
+}
+
+.about .picture div {
+    width: 100%;
+    text-align: right;
+    font-size: 10pt;
+}
+
+.about .narration {
+    margin-left: 50px;
+    float: left;
+    width: 60%;
+}
+
+.about p {
+    margin-bottom: 10px;
+}
+
+.about .blockquote {
+    margin-top: 20px;
+    border-left: 5px solid #ccc;
+    padding-left: 20px;
+    font-style: italic;
+}

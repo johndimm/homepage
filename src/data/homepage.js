@@ -1,0 +1,162 @@
+const homepage = [
+    {
+        "id": "1",
+        "name": "resumes",
+        "title": "Resumes",
+        "subtitle": "small, medium, and large",
+        "platform": "",
+        "video": "",
+        "thumbnail": "/image/resumes_thumb_2.png",
+        "poster": "https://www.johndimm.com/images/resumes.png",
+        "url": "",
+        "github": ""
+    },
+    {
+        "id": "2",
+        "year": "2025",
+        "name": "longtail",
+        "title": "Long Tail and Collaborations",
+        "subtitle": "browse the collaboration graph of movies",
+        "platform": "React/Nextjs, Postgres",
+        "video": "https://www.youtube.com/watch?v=9v4YJd33IIk",
+        "thumbnail": "/image/longtail.png",
+        "poster": "/image/longtail.png",
+        "url": "https://longtailhair.vercel.app/",
+        "github": "https://github.com/johndimm/longtailhair",
+        "about": "https://longtailhair.vercel.app/About"
+    },
+    {
+        "id": "3",
+        "year": "2025",
+        "name": "ebaycomicssold",
+        "title": "Ebay Comics Sold",
+        "subtitle": "graph recent ebay listings",
+        "platform": "React/Nextjs",
+        "video": "",
+        "thumbnail": "/image/ebay-comics-sold.png",
+        "poster": "/image/ebay-comics-sold.png",
+        "url": "https://ebay-comics-sold.vercel.app/",
+        "github": "https://ebay-comics-sold.vercel.app/"
+    },
+    {
+        "id": "4",
+        "year": "2024",
+        "name": "silverage",
+        "title": "Silver Age",
+        "subtitle": "a fantastic collection of Marvel comics from the 60's",
+        "platform": "React/Nextjs",
+        "video": "",
+        "thumbnail": "/image/silverage_1.png",
+        "poster": "/image/silverage_1.png",
+        "url": "https://silverage.vercel.app/",
+        "github": "https://github.com/johndimm/silverage"
+    },
+    {
+        "id": "5",
+        "year": "2020",
+        "name": "collaboration",
+        "title": "Headliners and Sidemen",
+        "subtitle": "browse the collaboration graph of record albums",
+        "platform": "React/Nextjs, Postgres",
+        "video": "",
+        "thumbnail": "/image/collaboration_thumb_2.jpg",
+        "poster": "https://www.johndimm.com/images/collaboration_music.png",
+        "url": "https://headliners-and-sidemen.vercel.app/",
+        "github": "https://github.com/johndimm/headliners-and-sidemen/"
+    },
+    {
+        "id": "6",
+        "year": "2020",
+        "name": "filterpanel",
+        "title": "filterpanel",
+        "subtitle": "generates a filterpanel from a csv file",
+        "platform": "React/Nextjs",
+        "video": "",
+        "thumbnail": "/image/filterpanel.png",
+        "poster": "https://www.johndimm.com/images/filterpanel.png",
+        "url": "https://filterpanel-csv.vercel.app/",
+        "github": "https://github.com/johndimm/filterpanel"
+    },
+    {
+        "id": "7",
+        "year": "2020",
+        "name": "breakdown",
+        "title": "breakdown for empower",
+        "subtitle": "google chrome extension",
+        "platform": "React/Nextjs, lovefield local DBMS",
+        "video": "",
+        "thumbnail": "/image/breakdown_thumb_2.jpg",
+        "poster": "/image/breakdown_thumb_2.jpg",
+        "url": "https://chromewebstore.google.com/detail/breakdown-for-empower-for/npkcbabhgmplkmaaljpcbombbgkggilm?pli=1",
+        "github": "https://github.com/johndimm/breakdown"
+    },
+    {
+        "id": "8",
+        "year": "2020",
+        "name": "whatlooksgood",
+        "title": "What Looks Good",
+        "subtitle": "pick what to eat then where",
+        "platform": "React/Nextjs, mysql",
+        "video": "",
+        "thumbnail": "https://www.johndimm.com/images/WhatLooksGood_screenshot.png",
+        "poster": "https://www.johndimm.com/images/WhatLooksGood_screenshot.png",
+        "url": "https://www.johndimm.com/yelp_db_caption/app/",
+        "github": "https://github.com/johndimm/WhatLooksGood"
+    },
+    {
+        "id": "9",
+        "year": "2014",
+        "name": "talkshow",
+        "title": "Talkshow Story Illustrator",
+        "subtitle": "displays images based on your speech",
+        "platform": "React/Nextjs, Web Speech API",
+        "video": "",
+        "thumbnail": "/image/talkshow_thumb_2.jpg",
+        "poster": "https://www.johndimm.com/images/talkshow.png",
+        "url": "https://johndimm.com/TalkShow/",
+        "github": "https:/github.com/johndimm/TalkShow"
+    },
+    /*
+    {
+        "id": "10",
+        "year": "2014",
+        "name": "funwithspeech",
+        "title": "FUN WITH SPEECH",
+        "subtitle": "talk given at jquery conference",
+        "platform": "",
+        "video": "http://youtu.be/rs5RoqQCmzE",
+        "thumbnail": "/image/funwithspeech_thumb_2.jpg",
+        "poster": "https://www.johndimm.com/images/funwithspeech.png",
+        "url": "https://www.johndimm.com/FunWithSpeech/",
+        "github": "https://github.com/johndimm/FunWithSpeech"
+    },
+    {
+        "id": "11",
+        "year": "2012",
+        "name": "translatingtelephone",
+        "title": "TRANSLATING TELEPHONE",
+        "subtitle": "multi-lingual conferencing with WebRTC",
+        "platform": "",
+        "video": "https://www.youtube.com/watch?v=mBKE6dU4V3o",
+        "thumbnail": "/image/translatingtelephone_thumb_2.jpg",
+        "poster": "https://www.johndimm.com/images/translatingtelephone.png",
+        "url": "",
+        "github": ""
+    },
+    {
+        "id": "12",
+        "year": "2012",
+        "name": "interpreter",
+        "title": "INTERPRETER",
+        "subtitle": "hands-free translation",
+        "platform": "",
+        "video": "",
+        "thumbnail": "/image/interpreter_thumb_2.jpg",
+        "poster": "https://www.johndimm.com/images/interpreter.png",
+        "url": "https://dprhcp108.doteasy.com/~johndimm/interpreter/",
+        "github": "https://github.com/johndimm/Interpreter"
+    }
+    */
+]
+
+export default homepage
