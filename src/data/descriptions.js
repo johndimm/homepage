@@ -2,27 +2,39 @@ import styles from "@/styles/Index.module.css";
 
 const descriptions = {
     "resumes": (
-        <div className={styles.resumes}>
-            <div className={styles.resume_format}>
-                <p>
-                </p><h3>PDF format</h3>
+        <div className={styles.resume_format}>
+
+            <div>
+                <h4>brief -- two pages</h4>
                 <ul>
-                    <li><a href="cv/2025/johndimm_bullets.pdf">Small: just bullet points</a></li>
-                    <li><a href="cv/2025/johndimm_classic.pdf">Medium: paragraphs</a></li>
-                    <li><a href="cv/2025/johndimm_details.pdf">Large: longer paragraphs</a></li>
+                    <li><a target="_resume" href="https://docs.google.com/document/d/1dpOanW2cpdMlXF5F9rvRoEDUu9NpREsortnW9cjdwEs/edit?usp=sharing">Google doc</a></li>
                 </ul>
             </div>
-            <div className={styles.resume_format}>
-                <h3>Word format</h3>
+
+            <div>
+                <h4>small -- bullet points</h4>
                 <ul>
-                    <li><a href="cv/2025/johndimm_bullets.docx">Small: just bullet points</a></li>
-                    <li><a href="cv/2025/johndimm_classic.doc">Medium: paragraphs</a></li>
-                    <li><a href="cv/2025/johndimm_details.doc">Large: longer paragraphs</a></li>
+                    <li><a target="_resume" href="cv/2025/johndimm_bullets.pdf">pdf</a></li>
+                    <li><a target="_resume" href="cv/2025/johndimm_bullets.docx">word</a></li>     
                 </ul>
-                <p></p>
+            </div>
+
+            <div>
+                <h4>medium -- classic</h4>
+                <ul>
+                    <li><a target="_resume" href="cv/2025/johndimm_classic.pdf">pdf</a></li>
+                    <li><a target="_resume" href="cv/2025/johndimm_classic.doc">word</a></li>     
+                </ul>
+            </div>
+
+            <div>
+                <h4>large -- details</h4>
+                <ul>
+                    <li><a target="_resume" href="cv/2025/johndimm_details.pdf">pdf</a></li>
+                    <li><a target="_resume" href="cv/2025/johndimm_details.doc">word</a></li>     
+                </ul>
             </div>
         </div>
-
     ),
     "longtail": <div>
         <p>

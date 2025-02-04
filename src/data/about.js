@@ -9,6 +9,10 @@ const About = () => {
 
         <div className={styles.narration}>
             <div className={styles.title} >John Dimm&mdash;Full Stack Developer & Data Engineer in San Diego</div>
+            <div>
+                <a href="https://www.linkedin.com/in/johndimm/">https://www.linkedin.com/in/johndimm/</a>
+            </div>
+            <br />
             <div className={styles.text}>
 
                 <p>
@@ -20,7 +24,11 @@ const About = () => {
                 </p>
 
                 <p>
-                    On the back-end, I actually enjoy processing large quantities of data to extract useful information and make it available.   In the ideal project, the back-end and front end are developed in parallel. The goal is to find or create structure in the data that can be used by the UI to enable exploration. I work with Object Relational Models but prefer to avoid SQL in client code by encapsulating SQL statements in stored procedures.  The back-end is responsible for carving out the small chunk of data needed for the current page.
+                    On the back-end, I actually enjoy processing large quantities of data to extract useful information and make it available.  The goal is to find or create structure in the data that can be used by the UI to enable exploration.  The back-end is responsible for carving out the small chunk of data needed for the current page.
+                </p>
+                <p>
+
+                    In the ideal project, the back-end and front end are developed in parallel.  I work with Object Relational Models but prefer to avoid SQL in client code by encapsulating SQL statements in stored procedures.
                 </p>
 
                 <p>

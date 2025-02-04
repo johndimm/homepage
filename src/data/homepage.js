@@ -3,7 +3,7 @@ const homepage = [
         "id": "1",
         "name": "resumes",
         "title": "Resumes",
-        "subtitle": "small, medium, and large",
+        "subtitle": "brief, small, medium, and large",
         "platform": "",
         "video": "",
         "thumbnail": "/image/resumes_thumb_2.png",

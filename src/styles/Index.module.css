@@ -92,8 +92,13 @@
 }
 
 
-.homepage .resume_format {
-    margin-top: 20px;
+.homepage .resume_format h4 {
+    margin-top: 0;
+}
+
+.homepage .resume_format ul {
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 .homepage .detail .fields {
