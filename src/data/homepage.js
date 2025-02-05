@@ -83,7 +83,7 @@ const homepage = [
         "name": "breakdown",
         "title": "breakdown for empower",
         "subtitle": "google chrome extension",
-        "platform": "React/Nextjs, lovefield local DBMS",
+        "platform": "React, lovefield local DBMS",
         "video": "",
         "thumbnail": "/image/breakdown_thumb_2.jpg",
         "poster": "/image/breakdown_thumb_2.jpg",

@@ -15,7 +15,7 @@ const descriptions = {
                 <h4>small -- bullet points</h4>
                 <ul>
                     <li><a target="_resume" href="cv/2025/johndimm_bullets.pdf">pdf</a></li>
-                    <li><a target="_resume" href="cv/2025/johndimm_bullets.docx">word</a></li>     
+                    <li><a target="_resume" href="cv/2025/johndimm_bullets.docx">word</a></li>
                 </ul>
             </div>
 
@@ -23,7 +23,7 @@ const descriptions = {
                 <h4>medium -- classic</h4>
                 <ul>
                     <li><a target="_resume" href="cv/2025/johndimm_classic.pdf">pdf</a></li>
-                    <li><a target="_resume" href="cv/2025/johndimm_classic.doc">word</a></li>     
+                    <li><a target="_resume" href="cv/2025/johndimm_classic.doc">word</a></li>
                 </ul>
             </div>
 
@@ -31,7 +31,7 @@ const descriptions = {
                 <h4>large -- details</h4>
                 <ul>
                     <li><a target="_resume" href="cv/2025/johndimm_details.pdf">pdf</a></li>
-                    <li><a target="_resume" href="cv/2025/johndimm_details.doc">word</a></li>     
+                    <li><a target="_resume" href="cv/2025/johndimm_details.doc">word</a></li>
                 </ul>
             </div>
         </div>
@@ -77,7 +77,11 @@ const descriptions = {
         <p>This is an npm package that exports a react component that generates a filter panel from a table of data. Filter panels are used by Amazon, Walmart, and many other e-commerce sites.  The filterpanel package is made to update immediately without a page load.</p>
     </div>,
     "breakdown": <div>
-        <p>Use the GROUP BY statement in SQL to slice and dice any data by any number of independent dimensions.  Originally written for Mint, but Mint is no more.  Also for Personal Capital, which is now Empower.  I still use this to make sense of my financial data.  Break down the results of a selection by showing the distribution of the selected data over a dimension.</p>
+        <p>
+            Use the GROUP BY statement in SQL to slice and dice any data by any number of independent dimensions.  Originally written for Mint, but Mint is no more.  Also for Personal Capital, which is now Empower.  I still use this to make sense of my financial data.  Break down the results of a selection by showing the distribution of the selected data over a dimension.
+        </p>
+        <p>For a quick demo, here is <a href='https://www.johndimm.com/breakdown/'>Olympic Medal data presented using breakdown</a>.
+        </p>
     </div>,
     "whatlooksgood": <div>
         <p>The model was created by analyzing a single source of found data: user photo caption text. It identifies "dishes" from the co-occurrence of phrases in caption text, and searches in all caption text for them, creating a graph of the relation between restaurants and their dishes. The UI relies on two recommender systems built on that relation.</p>
