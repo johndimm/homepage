@@ -11,8 +11,47 @@ const homepage = [
         "url": "",
         "github": ""
     },
-    {
+        {
         "id": "2",
+        "year": "2025",
+        "name": "romeo-and-juliet",
+        "title": "Romeo and Juliet Explained",
+        "subtitle": "get ai-generated explanations for any line",
+        "platform": "React/Nextjs, cursor, codex",
+        "video": "",
+        "thumbnail": "/image/r&j-thumb.png",
+        "poster": "/image/r&j-poster.png",
+        "url": "https://romeo-and-juliet-explained.vercel.app/",
+        "github": "https://github.com/johndimm/romeo-and-juliet-explained"
+    },
+    {
+        "id": "3",
+        "year": "2025",
+        "name": "constellations",
+        "title": "Constellations",
+        "subtitle": "browse the colaboration graph of anything",
+        "platform": "React/Nextjs, Google AI Studio",
+        "video": "",
+        "thumbnail": "/image/constellations-thumb.png",
+        "poster": "/image/constellations-poster.png",
+        "url": "https://constellations-delta.vercel.app/",
+        "github": "https://github.com/johndimm/Constellations"
+    },
+        {
+        "id": "4",
+        "year": "2025",
+        "name": "connections-scratchpad",
+        "title": "Connections Scratchpad",
+        "subtitle": "for the New York Times Connections game",
+        "platform": "React/Nextjs, Google AI Studio",
+        "video": "",
+        "thumbnail": "/image/connections-thumb.png",
+        "poster": "/image/connections-poster.png",
+        "url": "https://connections-canvas.vercel.app/",
+        "github": "https://github.com/johndimm/connections-canvas"
+    },
+    {
+        "id": "5",
         "year": "2025",
         "name": "longtail",
         "title": "Long Tail and Collaborations",
@@ -26,20 +65,7 @@ const homepage = [
         "about": "https://longtailhair.vercel.app/About"
     },
     {
-        "id": "3",
-        "year": "2025",
-        "name": "ebaycomicssold",
-        "title": "Ebay Comics Sold",
-        "subtitle": "graph recent ebay listings",
-        "platform": "React/Nextjs",
-        "video": "",
-        "thumbnail": "/image/ebay-comics-sold.png",
-        "poster": "/image/ebay-comics-sold.png",
-        "url": "https://ebay-comics-sold.vercel.app/",
-        "github": "https://ebay-comics-sold.vercel.app/"
-    },
-    {
-        "id": "4",
+        "id": "6",
         "year": "2024",
         "name": "silverage",
         "title": "Silver Age",
@@ -52,7 +78,7 @@ const homepage = [
         "github": "https://github.com/johndimm/silverage"
     },
     {
-        "id": "5",
+        "id": "7",
         "year": "2020",
         "name": "collaboration",
         "title": "Headliners and Sidemen",
@@ -65,7 +91,7 @@ const homepage = [
         "github": "https://github.com/johndimm/headliners-and-sidemen/"
     },
     {
-        "id": "6",
+        "id": "8",
         "year": "2020",
         "name": "filterpanel",
         "title": "filterpanel",
@@ -78,7 +104,7 @@ const homepage = [
         "github": "https://github.com/johndimm/filterpanel"
     },
     {
-        "id": "7",
+        "id": "9",
         "year": "2020",
         "name": "breakdown",
         "title": "breakdown for empower",
@@ -91,7 +117,7 @@ const homepage = [
         "github": "https://github.com/johndimm/breakdown"
     },
     {
-        "id": "8",
+        "id": "10",
         "year": "2020",
         "name": "whatlooksgood",
         "title": "What Looks Good",
@@ -104,7 +130,7 @@ const homepage = [
         "github": "https://github.com/johndimm/WhatLooksGood"
     },
     {
-        "id": "9",
+        "id": "11",
         "year": "2014",
         "name": "talkshow",
         "title": "Talkshow Story Illustrator",

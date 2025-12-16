@@ -97,6 +97,26 @@ const descriptions = {
         <p>
             It uses the Web Speech API that has been available in Google Chrome for over 10 years.
         </p>
+    </div>,
+    "romeo-and-juliet": <div>
+        <p>
+            Romeo and Juliet Explained is an interactive digital tool designed to make Shakespeare's timeless tragedy more accessible to modern readers. By combining the original text with on-demand explanations, this project bridges the gap between Elizabethan English and contemporary understanding.
+        </p>
+    </div>,
+    "constellations": <div>
+
+        Written by Google API Studio, starting with this initial prompt:
+        <blockquote>
+            I want to generate collaboration graphs of world history. The edges are people who have wikipedia pages. The nodes are things that bring people together: one-on-one meetings, projects, movies, battles, schools, and so on. I want to start with some node, like the movie Godfather, and follow the careers of the people who collaborated on it to other nodes. I want to see it as a graph and be able to wanter around in the space.
+        </blockquote>
+
+
+    </div>,
+    "connections-scratchpad": <div>
+        <p>
+            The NYT Connections game is addictive and oddly stressful.  It often leads you down the garden path with a red herring that you only realize you have fallen for after you start racking up errors.  Would it be cheating to print the puzzle, cut out the tiles, and rearrange them on the floor to try out different groupings?  I think not.  This app does that on your screen.
+
+        </p>
     </div>
 }
 
