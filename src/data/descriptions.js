@@ -110,6 +110,16 @@ const descriptions = {
             I want to generate collaboration graphs of world history. The edges are people who have wikipedia pages. The nodes are things that bring people together: one-on-one meetings, projects, movies, battles, schools, and so on. I want to start with some node, like the movie Godfather, and follow the careers of the people who collaborated on it to other nodes. I want to see it as a graph and be able to wander around in the space.
         </blockquote>
 
+        Instant demos using pre-bundled graphs:
+        <ul style={{"marginTop":"10px", "marginLeft":"20px"}}>
+            <li><a href="https://constellations-delta.vercel.app/?graph=andrew-ng-to-sebastian-thrun">Andrew Ng to Sebastian Thrun</a></li>
+            <li><a href="https://constellations-delta.vercel.app/?graph=francois-mitterand-to-emmanuel-macron">Francois Mitterand to Emmanuel Macron</a></li>
+            <li><a href="https://constellations-delta.vercel.app/?graph=geoffrey-hinton-to-yoshua-bengio">Geoffrey Hinton to Yoshua Bengio</a></li>
+            <li><a href="https://constellations-delta.vercel.app/?graph=ircam">IRCAM</a></li>
+            <li><a href="https://constellations-delta.vercel.app/?graph=isaac-newton">Isaac Newton</a></li>
+            <li><a href="https://constellations-delta.vercel.app/?graph=the-godfather">The Godfather</a></li>
+        </ul>
+
 
     </div>,
     "connections-scratchpad": <div>

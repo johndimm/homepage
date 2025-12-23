@@ -30,7 +30,7 @@ const homepage = [
         "name": "constellations",
         "title": "Constellations",
         "subtitle": "browse the colaboration graph of anything",
-        "platform": "React/Nextjs, Google AI Studio",
+        "platform": "React/Nextjs, Google AI Studio, Antigravity, Cursor, codex",
         "video": "",
         "thumbnail": "/image/constellations-thumb.png",
         "poster": "/image/constellations-poster.png",
