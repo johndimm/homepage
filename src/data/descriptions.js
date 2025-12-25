@@ -105,12 +105,50 @@ const descriptions = {
     </div>,
     "constellations": <div>
 
-        Written by Google API Studio, starting with this initial prompt:
+        I started this project two weeks ago on Wed Dec 10 using Google API Studio with this initial prompt:
         <blockquote>
             I want to generate collaboration graphs of world history. The edges are people who have wikipedia pages. The nodes are things that bring people together: one-on-one meetings, projects, movies, battles, schools, and so on. I want to start with some node, like the movie Godfather, and follow the careers of the people who collaborated on it to other nodes. I want to see it as a graph and be able to wander around in the space.
         </blockquote>
 
-        Instant demos using pre-bundled graphs:
+<p>
+The core features were working that afternoon.
+</p><p>
+
+The idea was to be lazy and create collaboration graphs on the fly.  No database, just live LLM queries.  The whole graph exists nowhere.  Construct a local neighborhood around a given node and expand out from there.  Slower but now it works on anything.  One constraint -- the people have to have wikipedia pages.  
+</p><p>
+
+Would the model be able to find the people involved in an event and the events for a person?  I'm defining an "event" as anything that involves at least 2 people at a given time or time range.  Results are not bad and should get better.
+</p><p>
+
+Soon I realized that people are nodes not edges.  A person is a hub of events, an event is a hub of persons.  The edges connect people with the events they participated in. There should be no people-to-people or event-to-event connections.  No dups.
+</p><p>
+
+Google AI Studio had a great start but I pushed it too far and it took a wrong turn.  I wanted to undo the day's work. The agent was handling github checkins for me, but it was unable to revert to main.
+</p><p>
+
+So I liberated the project from AI Studio and switched to Antigravity, which was fine until I used up my quota.  Turned to Cursor where I have a paid account.  Cursor is the weakest link.  Lots of errors.  It sometimes finds the best solution but only after it has exhausted all the alternatives.
+</p><p>
+
+Five days later, I thought it was done and posted it for some friends.  
+</p><p>
+
+But save/restore and export/import were needed for sharing graphs. That took one evening.  Cursor ended up doom looping so it was off to Codex, a step up from Cursor but not cheap.  Fortunately there was not much left to do, about 3 bucks.
+
+</p><p>
+I spent the rest of the week looking for good examples, tweaking the image queries, updating help, and just playing with it.
+</p><p>
+
+It currently gets images by querying Wikipedia Commons rather than requesting images from the LLM, which Cursor claimed would be too error-prone.  I'm not sure.  Lots of errors this way.
+</p><p>
+
+Stylewise, I try to present the agent with problems and keep whatever changes I have in mind to myself, at least until I see what it comes up with.  Next time I will save all non-trivial prompts, something the tools do not do well.
+
+</p><p>
+D3 is the graph engine. The code builds a force-directed layout with D3 forces (forceSimulation, forceLink, forceManyBody, forceCenter, collisions, zoom/drag).
+
+            </p>
+
+        <h2>Instant demos using pre-bundled graphs:</h2>
         <ul style={{"marginTop":"10px", "marginLeft":"20px"}}>
             <li><a href="https://constellations-delta.vercel.app/?graph=andrew-ng-to-sebastian-thrun">Andrew Ng to Sebastian Thrun</a></li>
             <li><a href="https://constellations-delta.vercel.app/?graph=francois-mitterand-to-emmanuel-macron">Francois Mitterand to Emmanuel Macron</a></li>

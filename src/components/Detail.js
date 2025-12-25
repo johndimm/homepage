@@ -23,7 +23,7 @@ const Detail = ({ item }) => {
 
     return <div className={styles.detail} >
         <div className={styles.card_content}>
-            <div className={styles.title}>{item.title}</div>
+            <div className={styles.title}><a href={item.url}>{item.title}</a></div>
             <div className={styles.subtitle}>{item.subtitle}</div>
             <div><a href={item.url}>
                 <img src={item.poster} alt={item.title} />
