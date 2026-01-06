@@ -148,15 +148,6 @@ D3 is the graph engine. The code builds a force-directed layout with D3 forces (
 
             </p>
 
-        <h2>Instant demos using pre-bundled graphs:</h2>
-        <ul style={{"marginTop":"10px", "marginLeft":"20px"}}>
-            <li><a href="https://constellations-delta.vercel.app/?graph=andrew-ng-to-sebastian-thrun">Andrew Ng to Sebastian Thrun</a></li>
-            <li><a href="https://constellations-delta.vercel.app/?graph=francois-mitterand-to-emmanuel-macron">Francois Mitterand to Emmanuel Macron</a></li>
-            <li><a href="https://constellations-delta.vercel.app/?graph=geoffrey-hinton-to-yoshua-bengio">Geoffrey Hinton to Yoshua Bengio</a></li>
-            <li><a href="https://constellations-delta.vercel.app/?graph=ircam">IRCAM</a></li>
-            <li><a href="https://constellations-delta.vercel.app/?graph=isaac-newton">Isaac Newton</a></li>
-            <li><a href="https://constellations-delta.vercel.app/?graph=the-godfather">The Godfather</a></li>
-        </ul>
 
 
     </div>,
