@@ -15,7 +15,7 @@ const Index = () => {
             </header>
 
             <p className={styles.gardenTagline}>
-                An app garden — a growing collection of things I&apos;ve built. Click any card to open it.
+                A growing collection of things I&apos;ve built — click any card to open it.
             </p>
 
             <div className={styles.gardenGrid}>
