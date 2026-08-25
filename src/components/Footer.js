@@ -6,7 +6,7 @@ const Footer = () => {
         <section className={styles.footer}>
             <hr />
             <span className={styles.footer_name}>
-                © 2025 John Dimm
+                © 2026 John Dimm
             </span>
             <Link href="/about">
                 <span className={styles.cursorpointer}>about me</span>

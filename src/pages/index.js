@@ -1,21 +1,35 @@
+import Link from 'next/link';
 import homepage from '@/data/homepage';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
 import Card from '@/components/Card';
 import styles from "@/styles/Index.module.css";
 
 const Index = () => {
-    const homepageHtml = homepage.map((item, idx) => {
-        return <Card key={idx} item={item} />
-    })
-
     return (
-        <div className={styles.homepage}>
-            <Header showCloseButton={false} />
-            {homepageHtml}
-            <Footer />
-        </div>
-    )
-}
+        <div className={styles.garden}>
+            <header className={styles.gardenHeader}>
+                <img className={styles.gardenLogo} src="/image/logo.png" alt="John Dimm" />
+                <div>
+                    <div className={styles.gardenName}>John Dimm</div>
+                    <div className={styles.gardenTitle}>Full Stack Lead &amp; Data Engineer</div>
+                </div>
+            </header>
 
-export default Index
+            <p className={styles.gardenTagline}>
+                An app garden — a growing collection of things I&apos;ve built. Click any card to open it.
+            </p>
+
+            <div className={styles.gardenGrid}>
+                {homepage.map((item, idx) => (
+                    <Card key={idx} item={item} />
+                ))}
+            </div>
+
+            <footer className={styles.gardenFooter}>
+                <span className={styles.gardenCopy}>© 2026 John Dimm</span>
+                <Link href="/about" className={styles.gardenAbout}>about me</Link>
+            </footer>
+        </div>
+    );
+};
+
+export default Index;

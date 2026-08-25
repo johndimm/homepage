@@ -246,3 +246,200 @@
     padding-left: 20px;
     font-style: italic;
 }
+
+/* ── App garden (dark homepage) ── */
+.garden {
+    background: #000;
+    color: #e5e5e5;
+    min-height: 100vh;
+    padding: 40px max(5%, 24px) 64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.gardenHeader {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 6px;
+}
+
+.gardenLogo {
+    height: 44px;
+    width: auto;
+    filter: invert(1) brightness(1.6);
+}
+
+.gardenName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: #fff;
+}
+
+.gardenTitle {
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #a1a1aa;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+.gardenTagline {
+    color: #71717a;
+    font-size: 14px;
+    margin: 6px 0 34px;
+}
+
+.gardenGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 24px;
+}
+
+.appCard {
+    display: flex;
+    flex-direction: column;
+    background: #0a0a0a;
+    border: 1px solid #202024;
+    border-radius: 16px;
+    overflow: hidden;
+    transition: border-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.appCard:hover {
+    border-color: var(--accent);
+    transform: translateY(-3px);
+    box-shadow: 0 10px 34px rgba(0, 0, 0, 0.6);
+}
+
+.appCardMain {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    color: inherit;
+    text-decoration: none;
+}
+
+.appCardImageWrap {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    background: #000;
+    border-bottom: 1px solid #161618;
+}
+
+.appCardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.35s ease;
+}
+
+.appCard:hover .appCardImage {
+    transform: scale(1.03);
+}
+
+.appCardImageContain {
+    object-fit: contain;
+    object-position: center;
+    padding: 4px;
+    transform: scale(1.35);
+}
+
+.appCard:hover .appCardImageContain {
+    transform: scale(1.4);
+}
+
+.appCardBody {
+    padding: 18px 18px 14px;
+    flex: 1;
+}
+
+.appCardTitleRow {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.appCardTitle {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fafafa;
+    margin: 0;
+    letter-spacing: 0.01em;
+}
+
+.appCardArrow {
+    color: var(--accent);
+    font-size: 15px;
+    opacity: 0.55;
+    transition: opacity 0.2s ease;
+    flex-shrink: 0;
+}
+
+.appCard:hover .appCardArrow {
+    opacity: 1;
+}
+
+.appCardBlurb {
+    margin-top: 9px;
+    color: #a1a1aa;
+    font-size: 13.5px;
+    line-height: 1.55;
+}
+
+.appCardFooter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 11px 18px 16px;
+    border-top: 1px solid #161618;
+}
+
+.appCardMeta {
+    color: #52525b;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.appCardGithub {
+    color: #71717a;
+    font-size: 12px;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: color 0.2s ease;
+}
+
+.appCardGithub:hover {
+    color: var(--accent);
+}
+
+.gardenFooter {
+    margin-top: 52px;
+    padding-top: 26px;
+    border-top: 1px solid #202024;
+    text-align: center;
+    color: #52525b;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.gardenAbout {
+    margin-left: 32px;
+    cursor: pointer;
+    color: #71717a;
+}
+
+.gardenAbout:hover {
+    color: #fff;
+}
