@@ -145,11 +145,11 @@ D3 is the graph engine. The code builds a force-directed layout with D3 forces (
             </p>
 
         <ul style={{"marginTop":"10px", "marginLeft":"20px"}}>
-            <li><a href="https://constellations-delta.vercel.app/?graph=andrew_ng_to_sebastian_thrun">Andrew Ng to Sebastian Thrun</a></li>
-            <li><a href="https://constellations-delta.vercel.app/?graph=geoffrey_hinton_to_yoshua_bengio">Geoffrey Hinton to Yoshua Bengio</a></li>
-              <li><a href="https://constellations-delta.vercel.app/?graph=coursera_to_udacity">Coursera to Udacity</a></li>
-              <li><a href="https://constellations-delta.vercel.app/?graph=ccrma_to_ircam">CCRMA to IRCAM</a></li>
-            <li><a href="https://constellations-delta.vercel.app/?graph=ircam">IRCAM</a></li>
+            <li><a href="https://constellations.johndimm.org/?graph=andrew_ng_to_sebastian_thrun">Andrew Ng to Sebastian Thrun</a></li>
+            <li><a href="https://constellations.johndimm.org/?graph=geoffrey_hinton_to_yoshua_bengio">Geoffrey Hinton to Yoshua Bengio</a></li>
+              <li><a href="https://constellations.johndimm.org/?graph=coursera_to_udacity">Coursera to Udacity</a></li>
+              <li><a href="https://constellations.johndimm.org/?graph=ccrma_to_ircam">CCRMA to IRCAM</a></li>
+            <li><a href="https://constellations.johndimm.org/?graph=ircam">IRCAM</a></li>
  
         </ul>
 

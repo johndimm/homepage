@@ -11,7 +11,7 @@ const homepage = [
         "video": "",
         "thumbnail": "/image/speak-memory.png",
         "poster": "/image/speak-memory.png",
-        "url": "https://speak-memory.vercel.app/",
+        "url": "https://memory.johndimm.org/",
         "github": "https://github.com/johndimm/speak-memory"
     },
     {
@@ -26,7 +26,7 @@ const homepage = [
         "video": "",
         "thumbnail": "/image/trailer-vision.png",
         "poster": "/image/trailer-vision.png",
-        "url": "https://trailer-vision-movies.vercel.app/",
+        "url": "https://trailer-vision.johndimm.org/",
         "github": "https://github.com/johndimm/trailer-vision"
     },
     {
@@ -56,7 +56,7 @@ const homepage = [
         "video": "",
         "thumbnail": "/image/constellations-thumb.png",
         "poster": "/image/constellations-poster.png",
-        "url": "https://constellations-delta.vercel.app/",
+        "url": "https://constellations.johndimm.org/",
         "github": "https://github.com/johndimm/Constellations"
     },
     {
@@ -76,6 +76,21 @@ const homepage = [
     },
     {
         "id": "6",
+        "year": "2026",
+        "name": "gradual-daylight-saving",
+        "title": "Gradual Daylight Saving",
+        "subtitle": "what if daylight saving happened gradually?",
+        "blurb": "Two clocks side by side: one jumps an hour overnight like yours does now, the other spreads that hour over months — a few seconds per day. Scrub through the year to see how they diverge and converge.",
+        "accent": "#eab308",
+        "platform": "",
+        "video": "",
+        "thumbnail": "/image/gradual-daylight-saving.png",
+        "poster": "/image/gradual-daylight-saving.png",
+        "url": "https://gradual.johndimm.org/",
+        "github": "https://github.com/johndimm/gradual-daylight-saving"
+    },
+    {
+        "id": "7",
         "year": "2025",
         "name": "connections-scratchpad",
         "title": "Connections Scratchpad",
