@@ -41,7 +41,7 @@ const homepage = [
         "video": "",
         "thumbnail": "/image/soundings.png",
         "poster": "/image/soundings.png",
-        "url": "https://soundings-music.vercel.app/api/auth/youtube",
+        "url": "https://soundings.johndimm.org/api/auth/youtube",
         "github": "https://github.com/johndimm/soundings"
     },
     {
@@ -71,7 +71,7 @@ const homepage = [
         "video": "",
         "thumbnail": "/image/orbit.png",
         "poster": "/image/orbit.png",
-        "url": "https://orbit-eight-mauve.vercel.app/",
+        "url": "https://orbit.johndimm.org/",
         "github": "https://github.com/johndimm/Careers"
     },
     {
@@ -101,7 +101,7 @@ const homepage = [
         "video": "",
         "thumbnail": "/image/connections-thumb.png",
         "poster": "/image/connections-poster.png",
-        "url": "https://connections-canvas.vercel.app/",
+        "url": "https://connections-scratchpad.johndimm.org/",
         "github": "https://github.com/johndimm/connections-canvas"
     },
     {
@@ -116,7 +116,7 @@ const homepage = [
         "video": "",
         "thumbnail": "/image/r&j-thumb.png",
         "poster": "/image/r&j-poster.png",
-        "url": "https://romeo-and-juliet-explained.vercel.app/",
+        "url": "https://romeo-and-juliet-explained.johndimm.org/",
         "github": "https://github.com/johndimm/romeo-and-juliet-explained"
     },
     {
@@ -146,7 +146,7 @@ const homepage = [
         "video": "",
         "thumbnail": "/image/silverage_1.png",
         "poster": "/image/silverage_1.png",
-        "url": "https://silverage.vercel.app/",
+        "url": "https://silverage.johndimm.org/",
         "github": "https://github.com/johndimm/silverage"
     },
     {
