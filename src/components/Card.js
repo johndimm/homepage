@@ -7,9 +7,7 @@ const Card = ({ item }) => {
     const href = item.url || `/${item.name}`;
 
     const Wrapper = isExternal ? 'a' : Link;
-    const wrapperProps = isExternal
-        ? { href, target: '_blank', rel: 'noopener noreferrer' }
-        : { href };
+    const wrapperProps = { href };
 
     return (
         <div className={styles.appCard} style={{ '--accent': accent }}>
