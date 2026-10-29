@@ -23,6 +23,7 @@ const Card = ({ item }) => {
                         className={`${styles.appCardImage} ${item.imageBg ? styles.appCardImageContain : ''}`}
                         src={item.poster || item.thumbnail}
                         alt={item.title}
+                        style={item.imagePosition ? { objectPosition: item.imagePosition } : undefined}
                     />
                 </div>
 
